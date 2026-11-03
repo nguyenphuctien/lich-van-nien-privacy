@@ -1,0 +1,47 @@
+:root {
+  --paper: #fbf7ef;
+  --bg: #ece0c8;
+  --ink: #3a241e;
+  --muted: #6e5a50;
+  --son: #b0302a;
+  --line: #e2d6c0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #241c18;
+    --bg: #1a1411;
+    --ink: #f1e8da;
+    --muted: #c2b3a3;
+    --son: #e0675e;
+    --line: #3a2f29;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.65 "Be Vietnam Pro", -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+main {
+  max-width: 720px;
+  margin: 24px auto;
+  padding: 28px 20px 40px;
+  background: var(--paper);
+  border-radius: 16px;
+  border-top: 10px solid var(--son);
+}
+header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+header img { width: 56px; height: 56px; border-radius: 13px; }
+header .name { font: 700 26px/1.2 "Noto Serif", Georgia, serif; }
+header .tag { color: var(--muted); font-size: 15px; }
+h1 { font: 700 28px/1.3 "Noto Serif", Georgia, serif; margin: 24px 0 4px; }
+h2 { font-size: 19px; margin: 28px 0 6px; color: var(--son); }
+a { color: var(--son); }
+.muted { color: var(--muted); font-size: 15px; }
+nav { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 15px; }
+nav a { margin-right: 16px; }
+.lang { float: right; font-size: 15px; }
+details { border-bottom: 1px solid var(--line); padding: 10px 0; }
+summary { cursor: pointer; font-weight: 600; }
+@media (max-width: 760px) { main { margin: 0; border-radius: 0; } }
