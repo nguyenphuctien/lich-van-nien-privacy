@@ -1,5 +1,8 @@
-# Lịch Vạn Niên – Privacy Policy
+# Ngày Lành: chính sách quyền riêng tư và hỗ trợ
 
-Trang chính sách quyền riêng tư của app Lịch Vạn Niên, đăng bằng GitHub Pages.
+Trang tĩnh cho app Ngày Lành, đăng bằng GitHub Pages.
 
-Link dùng cho Google Play / App Store: https://nguyenphuctien.github.io/lich-van-nien-privacy/
+- `index.html`: chính sách quyền riêng tư (tiếng Việt và tiếng Anh): https://nguyenphuctien.github.io/lich-van-nien-privacy/
+- `ho-tro/`: trang hỗ trợ, câu hỏi thường gặp: https://nguyenphuctien.github.io/lich-van-nien-privacy/ho-tro/
+
+Bản gốc nằm ở `docs/web` trong repo app; sửa ở đó rồi chép sang đây.
